@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ViewController: UIViewController {
     @IBOutlet var copyrightLabel: UILabel!
@@ -41,4 +42,35 @@ class ViewController: UIViewController {
 
 
 }
+
+extension ViewController: UNUserNotificationCenterDelegate{
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        //play sound and show alert to the user
+        completionHandler([.alert, .sound])
+        
+        print("notificaiton delivered while app is in the foreground on the appointment screen")
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        print("did receive response from user while the notification was presented!")
+        
+        switch response.actionIdentifier {
+        case UNNotificationDismissActionIdentifier:
+            print("Dismiss Action")
+        case UNNotificationDefaultActionIdentifier:
+            print("Default")
+        case "VisitNostalgiaWebsite":
+            print("add code here to open a browser to direct the user to the website")
+        case "Delete":
+            print("Delete")
+        default:
+            print("Uknown action")
+        }
+        completionHandler()
+    }
+}
+
 
