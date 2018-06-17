@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51AD21E19B80B216194E82D0 /* Pods_Peria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CB58650CDA86D68041C357 /* Pods_Peria.framework */; };
 		E9899B8720D5D58A009B3BF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9899B8620D5D58A009B3BF7 /* AppDelegate.swift */; };
 		E9899B8920D5D58A009B3BF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9899B8820D5D58A009B3BF7 /* ViewController.swift */; };
 		E9899B8C20D5D58A009B3BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9899B8A20D5D58A009B3BF7 /* Main.storyboard */; };
 		E9899B8E20D5D590009B3BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9899B8D20D5D590009B3BF7 /* Assets.xcassets */; };
 		E9899B9120D5D590009B3BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9899B8F20D5D590009B3BF7 /* LaunchScreen.storyboard */; };
+		E9899B9920D5DB82009B3BF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9899B9820D5DB81009B3BF7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2989BBF6DFA978D3EE0829 /* Pods-Peria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Peria/Pods-Peria.debug.xcconfig"; sourceTree = "<group>"; };
+		80C6C085D6A8DB98D95F695E /* Pods-Peria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Peria/Pods-Peria.release.xcconfig"; sourceTree = "<group>"; };
+		E8CB58650CDA86D68041C357 /* Pods_Peria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9899B8320D5D58A009B3BF7 /* Peria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9899B8620D5D58A009B3BF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9899B8820D5D58A009B3BF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		E9899B8D20D5D590009B3BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9899B9020D5D590009B3BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9899B9220D5D590009B3BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9899B9820D5DB81009B3BF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AD21E19B80B216194E82D0 /* Pods_Peria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43E8E125542C0B747E87DE1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E2989BBF6DFA978D3EE0829 /* Pods-Peria.debug.xcconfig */,
+				80C6C085D6A8DB98D95F695E /* Pods-Peria.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B344B879BDABB2B2B005B3D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB58650CDA86D68041C357 /* Pods_Peria.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9899B7A20D5D58A009B3BF7 = {
 			isa = PBXGroup;
 			children = (
 				E9899B8520D5D58A009B3BF7 /* Peria */,
 				E9899B8420D5D58A009B3BF7 /* Products */,
+				43E8E125542C0B747E87DE1C /* Pods */,
+				B344B879BDABB2B2B005B3D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				E9899B8D20D5D590009B3BF7 /* Assets.xcassets */,
 				E9899B8F20D5D590009B3BF7 /* LaunchScreen.storyboard */,
 				E9899B9220D5D590009B3BF7 /* Info.plist */,
+				E9899B9820D5DB81009B3BF7 /* GoogleService-Info.plist */,
 			);
 			path = Peria;
 			sourceTree = "<group>";
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9899B9520D5D590009B3BF7 /* Build configuration list for PBXNativeTarget "Peria" */;
 			buildPhases = (
+				0461EAFDA8C508C7272E5A36 /* [CP] Check Pods Manifest.lock */,
 				E9899B7F20D5D58A009B3BF7 /* Sources */,
 				E9899B8020D5D58A009B3BF7 /* Frameworks */,
 				E9899B8120D5D58A009B3BF7 /* Resources */,
+				D56A7B373B30BF629E02E6C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +153,53 @@
 			files = (
 				E9899B9120D5D590009B3BF7 /* LaunchScreen.storyboard in Resources */,
 				E9899B8E20D5D590009B3BF7 /* Assets.xcassets in Resources */,
+				E9899B9920D5DB82009B3BF7 /* GoogleService-Info.plist in Resources */,
 				E9899B8C20D5D58A009B3BF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0461EAFDA8C508C7272E5A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Peria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56A7B373B30BF629E02E6C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Peria/Pods-Peria-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peria/Pods-Peria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9899B7F20D5D58A009B3BF7 /* Sources */ = {
@@ -278,6 +349,7 @@
 		};
 		E9899B9620D5D590009B3BF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2989BBF6DFA978D3EE0829 /* Pods-Peria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +368,7 @@
 		};
 		E9899B9720D5D590009B3BF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C6C085D6A8DB98D95F695E /* Pods-Peria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
