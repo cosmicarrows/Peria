@@ -13,7 +13,7 @@
 		E9899B8C20D5D58A009B3BF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9899B8A20D5D58A009B3BF7 /* Main.storyboard */; };
 		E9899B8E20D5D590009B3BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9899B8D20D5D590009B3BF7 /* Assets.xcassets */; };
 		E9899B9120D5D590009B3BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9899B8F20D5D590009B3BF7 /* LaunchScreen.storyboard */; };
-		E9899B9920D5DB82009B3BF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9899B9820D5DB81009B3BF7 /* GoogleService-Info.plist */; };
+		E9899B9C20D5E859009B3BF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9899B9B20D5E858009B3BF7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		E9899B8D20D5D590009B3BF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9899B9020D5D590009B3BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9899B9220D5D590009B3BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9899B9820D5DB81009B3BF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E9899B9A20D5DCFD009B3BF7 /* Peria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Peria.entitlements; sourceTree = "<group>"; };
+		E9899B9B20D5E858009B3BF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				E9899B8D20D5D590009B3BF7 /* Assets.xcassets */,
 				E9899B8F20D5D590009B3BF7 /* LaunchScreen.storyboard */,
 				E9899B9220D5D590009B3BF7 /* Info.plist */,
-				E9899B9820D5DB81009B3BF7 /* GoogleService-Info.plist */,
+				E9899B9B20D5E858009B3BF7 /* GoogleService-Info.plist */,
 			);
 			path = Peria;
 			sourceTree = "<group>";
@@ -159,8 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9899B9120D5D590009B3BF7 /* LaunchScreen.storyboard in Resources */,
+				E9899B9C20D5E859009B3BF7 /* GoogleService-Info.plist in Resources */,
 				E9899B8E20D5D590009B3BF7 /* Assets.xcassets in Resources */,
-				E9899B9920D5DB82009B3BF7 /* GoogleService-Info.plist in Resources */,
 				E9899B8C20D5D58A009B3BF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
